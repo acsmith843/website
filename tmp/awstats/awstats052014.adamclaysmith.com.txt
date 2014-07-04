@@ -1,0 +1,422 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201405 will be lost/reset.
+# Last config file used to build this data file was /home/adamclaysmith/tmp/awstats/awstats.adamclaysmith.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2016                
+POS_TIME 2691                
+POS_VISITOR 8388                
+POS_DAY 11161               
+POS_DOMAIN 3397                
+POS_LOGIN 3766                
+POS_ROBOT 3921                
+POS_WORMS 4289                
+POS_EMAILSENDER 4420                
+POS_EMAILRECEIVER 4563                
+POS_SESSION 11871               
+POS_SIDER 12028               
+POS_FILETYPES 4698                
+POS_DOWNLOADS 4877                
+POS_OS 4925                
+POS_BROWSER 5065                
+POS_SCREENSIZE 5543                
+POS_UNKNOWNREFERER 5617                
+POS_UNKNOWNREFERERBROWSER 6166                
+POS_ORIGIN 6546                
+POS_SEREFERRALS 6685                
+POS_PAGEREFS 6853                
+POS_SEARCHWORDS 7104                
+POS_KEYWORDS 7292                
+POS_MISC 2355                
+POS_ERRORS 7392                
+POS_CLUSTER 3622                
+POS_SIDER_404 7482                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140601081619 27 5303 3933943034111
+FirstTime 20140501074643
+LastTime 20140531210628
+LastUpdate 20140602051230 1 0 0 0 0
+TotalVisits 100                 
+TotalUnique 68                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 68                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 22052 1 12 578926
+1 4 14 387875 7 10 41927
+2 2 2 0 1 1 6008
+3 0 0 0 11 11 66088
+4 0 0 0 1 4 108160
+5 2 12 387875 6 14 173258
+6 6 18 501225 1 6 24032
+7 2 12 387875 1 4 18024
+8 23 38 608395 8 14 88140
+9 2 2 22052 0 1 0
+10 3 16 518087 1 3 18024
+11 6 22 798338 1 6 41066
+12 6 46 1573552 3 10 42056
+13 2 2 22052 3 12 267422
+14 7 7 77182 2 3 23042
+15 5 16 545665 0 5 31288
+16 4 8 170348 5 10 160252
+17 4 10 399437 0 3 203067
+18 1 1 11026 0 1 14372
+19 1 1 11026 0 4 114584
+20 29 194 7041441 3 33 213318
+21 17 56 2165980 2 21 140089
+22 1 1 11026 0 1 14372
+23 3 6 119186 9 12 76484
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 11
+us 59 141 3652585
+ru 49 293 10872958
+lv 12 12 0
+de 3 13 409927
+eu 3 18 660883
+il 2 5 130212
+ua 1 1 11026
+pl 1 1 11026
+sa 1 1 11026
+lu 1 1 11026
+co 1 1 11026
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+googlebot 34 1099277 20140531041345 0
+bot[\s_+:,\.\;\/\\-] 8 77182 20140527060226 0
+no_user_agent 7 250605 20140520085354 0
+[\s_+:,\.\;\/\\-]bot 5 227835 20140520145038 0
+netcraft 1 11026 20140515132619 0
+crawl 1 11026 20140522010953 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 158 7059117 0 0
+eot 17 345695 0 0
+png 102 853900 0 0
+html 116 1135678 0 0
+jpg 51 5135575 0 0
+js 43 1251730 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 10
+blackberry 1
+winxp 255
+winlong 8
+linux 17
+winvista 2
+win7 72
+winme 1
+macosx 83
+win2003 4
+Unknown 44
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 30
+firefox28.0 1
+safari7.0.3 24
+msie6.0 41
+blackberry 1
+firefox26.0 2
+chrome34.0.1847.131 1
+safari7.0.4 2
+curl 1
+chrome13.0.782.215 5
+opera9.80 34
+ecatch 1
+msie8.0 130
+chrome35.0.1916.114 22
+firefox1.0 1
+mozilla 10
+msie7.0 92
+firefox14.0.1 1
+firefox3.5.8 2
+firefox16.0 2
+msie10.0 2
+chrome25.0.1364.172 1
+chrome27.0.1453 11
+firefox6.0 1
+firefox3.6.12 23
+wget 1
+chrome10.0.648.11 1
+safari6.1.1 1
+msie9.0 1
+Unknown 33
+safari7.0.2 39
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~getfavicon27) 20140513095339
+Mozilla/5.0_(compatible;_WebMasterAid/1.0;__http://wmaid.com/explore/) 20140531010900
+SEOstats_2.1.0__________https://github.com/eyecatchup/SEOstats 20140530144120
+wscheck.com/1.0.0_(_http://wscheck.com/) 20140530144120
+Gimme60/Nutch-1.8_(page_refresh:_please_visit_gimme60.com;_gimme60.com;_support__AT__SIGN__gimmie60__DOT_COM_) 20140509063155
+NerdyBot 20140531081636
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~getfavicon27) 20140513095339
+wscheck.com/1.0.0_(_http://wscheck.com/) 20140530144120
+Gimme60/Nutch-1.8_(page_refresh:_please_visit_gimme60.com;_gimme60.com;_support__AT__SIGN__gimmie60__DOT_COM_) 20140509063155
+NerdyBot 20140531081636
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 60 63
+From1 0 0
+From2 39 39
+From3 12 12
+From4 22 373
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 4 4
+yandex 35 35
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://wmaid.com/explore/adamclaysmith.com 10 10
+http://t.co/Lh73pyCQFc 1 1
+http://privhosting.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+adam+clay 35
+installerex+facebook 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+adam 35
+clay 35
+installerex 2
+facebook 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 137 787048
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 19
+/ 2 -
+/robots.txt 22 -
+/user 1 -
+/admin.php 2 -
+/administrator/index.php 11 http://ADAMCLAYSMITH.com/administrator/index.php
+/test/wp-login.php 1 -
+/admin 1 -
+/wordpress/wp-login.php 1 -
+/components/com_search/views/search/metadata.xml 1 -
+/administrator/ 2 http://ADAMCLAYSMITH.com
+/about.html 10 http://adamclaysmith.com/
+/administrator 1 -
+/blog/wp-login.php 2 -
+/js/docs.min.js 48 http://adamclaysmith.com/
+/news/wp-login.php 1 -
+/default.php 5 http://adamclaysmith.com/default.php
+/wp-login.php 5 -
+/assets/js/ie8-responsive-file-warning.js 20 http://adamclaysmith.com/
+/wp/wp-login.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 68
+188.244.34.249 28 156 5774860 20140519215140
+188.92.76.167 12 12 0 20140531010900
+46.188.21.48 6 36 1321766 20140529204336
+76.26.220.192 4 35 1279028 20140529121954
+185.18.22.183 3 18 660883 20140531210628
+95.25.8.63 3 18 660883 20140530205445
+71.189.164.218 3 3 33078 20140516200719
+216.38.216.101 3 5 91298 20140526060602
+128.75.245.172 3 23 902530 20140526205301
+199.217.119.4 3 3 33078 20140530144120
+188.35.22.19 3 18 660883 20140524210329
+69.58.178.56 2 2 22052 20140520143829
+23.236.59.87 2 2 22052 20140520081719
+128.75.228.124 2 12 398901 20140525113717
+64.20.30.66 2 17 387875 20140502082607
+128.75.230.73 2 7 273008 20140522210654
+95.25.150.193 1 12 492252 20140522201214
+191.239.1.173 1 1 11026 20140513200805
+23.251.145.44 1 1 11026 20140510094319
+173.10.249.218 1 11 387875 20140501074643
+62.219.8.233 1 1 11026 20140514213019
+96.227.124.38 1 1 11026 20140525002806
+23.236.59.191 1 1 11026 20140514170515
+74.52.245.146 1 1 11026 20140524003924
+66.249.83.113 1 1 11026 20140529123355
+107.178.208.82 1 1 11026 20140516082315
+23.251.151.136 1 1 11026 20140530081815
+176.9.50.43 1 1 11026 20140527191832
+23.236.49.191 1 1 11026 20140523081706
+64.202.161.46 1 1 11026 20140525164443
+23.251.156.94 1 1 11026 20140529081806
+23.236.49.184 1 1 11026 20140513150757
+108.59.84.171 1 1 11026 20140526081715
+107.178.221.121 1 1 11026 20140509180913
+128.75.252.105 1 11 387875 20140520201048
+23.251.157.196 1 1 11026 20140531081636
+71.204.226.89 1 2 115403 20140519171102
+162.222.177.163 1 1 11026 20140501082543
+173.255.113.65 1 1 11026 20140505130258
+173.255.118.190 1 1 11026 20140527081721
+5.199.175.174 1 1 11026 20140522163656
+66.249.88.185 1 11 387875 20140529123356
+76.104.114.71 1 11 387875 20140524062008
+23.236.62.107 1 1 11026 20140502082103
+23.236.61.132 1 1 11026 20140525081640
+107.178.218.247 1 1 11026 20140514145522
+193.158.223.14 1 11 387875 20140526055456
+23.236.60.65 1 1 11026 20140505200340
+23.236.48.84 1 1 11026 20140518081703
+173.255.112.204 1 1 11026 20140519081928
+23.236.53.55 1 1 11026 20140528081736
+38.100.21.62 1 4 119186 20140517105211
+107.178.223.141 1 1 11026 20140524081843
+199.223.234.85 1 1 11026 20140506081757
+8.35.201.39 1 1 11026 20140513095339
+148.251.50.43 1 1 11026 20140513220422
+23.251.149.216 1 1 11026 20140521085637
+94.242.222.29 1 1 11026 20140511114925
+107.178.210.1 1 1 11026 20140522082532
+107.178.219.60 1 1 11026 20140512064347
+23.236.54.202 1 1 11026 20140507081757
+91.236.74.121 1 1 11026 20140531125409
+23.236.56.235 1 1 11026 20140515104416
+64.202.161.47 1 1 11026 20140525164454
+216.172.56.37 1 1 11026 20140523154830
+62.219.8.237 1 4 119186 20140514235127
+162.222.183.113 1 1 11026 20140512130534
+46.119.127.227 1 1 11026 20140514145240
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20140501 3 23 786776 3
+20140502 2 7 11026 2
+20140505 2 2 22052 2
+20140506 1 1 11026 1
+20140507 1 1 11026 1
+20140508 1 1 11026 1
+20140509 2 2 22052 2
+20140510 1 1 11026 1
+20140511 1 1 11026 1
+20140512 3 3 22052 3
+20140513 16 66 2299761 11
+20140514 8 25 795063 6
+20140515 4 18 642799 2
+20140516 6 31 1070810 5
+20140517 5 23 791095 3
+20140518 4 19 671909 2
+20140519 6 22 787312 5
+20140520 4 14 420953 3
+20140521 2 2 11026 2
+20140522 6 22 787312 5
+20140523 2 2 22052 2
+20140524 8 33 1081836 7
+20140525 5 15 431979 5
+20140526 10 42 1392729 5
+20140527 5 11 410463 4
+20140528 3 13 398901 3
+20140529 7 42 1458685 5
+20140530 7 22 704987 3
+20140531 8 23 682935 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 92
+30mn-1h 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 116 1135678 100 83
+/fonts/glyphicons-halflings-regular.eot 17 345695 0 17
+END_SIDER

@@ -1,0 +1,398 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201406 will be lost/reset.
+# Last config file used to build this data file was /home/adamclaysmith/tmp/awstats/awstats.adamclaysmith.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2016                
+POS_TIME 2694                
+POS_VISITOR 7463                
+POS_DAY 9991                
+POS_DOMAIN 3368                
+POS_LOGIN 3718                
+POS_ROBOT 3873                
+POS_WORMS 4157                
+POS_EMAILSENDER 4288                
+POS_EMAILRECEIVER 4431                
+POS_SESSION 10704               
+POS_SIDER 10861               
+POS_FILETYPES 4566                
+POS_DOWNLOADS 4740                
+POS_OS 4788                
+POS_BROWSER 4926                
+POS_SCREENSIZE 5318                
+POS_UNKNOWNREFERER 5392                
+POS_UNKNOWNREFERERBROWSER 5589                
+POS_ORIGIN 5695                
+POS_SEREFERRALS 5834                
+POS_PAGEREFS 6002                
+POS_SEARCHWORDS 6313                
+POS_KEYWORDS 6499                
+POS_MISC 2358                
+POS_ERRORS 6597                
+POS_CLUSTER 3574                
+POS_SIDER_404 6686                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140701005749 18 3381 15454900023664
+FirstTime 20140601081619
+LastTime 20140630162341
+LastUpdate 20140701053236 18 0 17 0 0
+TotalVisits 75                  
+TotalUnique 62                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 62                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 16 629522 1 5 24032
+1 1 1 11026 3 3 18024
+2 1 1 0 2 7 142228
+3 2 17 640548 0 4 24032
+4 1 11 387875 4 7 57110
+5 0 0 0 1 1 11026
+6 4 10 399437 2 6 24032
+7 27 32 548658 0 3 18024
+8 9 9 66156 2 6 131202
+9 3 9 388411 0 3 18024
+10 6 21 693961 6 12 71106
+11 0 0 0 1 2 35118
+12 0 0 0 3 3 11026
+13 2 12 398901 2 5 30040
+14 8 13 306086 1 4 29050
+15 2 2 22052 3 5 35058
+16 7 23 677760 1 6 36048
+17 0 0 0 1 1 11026
+18 5 10 306086 4 7 57110
+19 0 0 0 0 3 108160
+20 11 81 2884292 2 13 88140
+21 3 8 284034 5 9 64108
+22 0 0 0 2 6 131202
+23 1 1 11026 5 6 46084
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+us 46 59 992205
+ru 29 184 6936587
+lv 10 10 0
+eu 3 18 660883
+br 1 1 11026
+it 1 1 11026
+pl 1 1 11026
+fi 1 1 11026
+fr 1 1 11026
+de 1 1 11026
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+googlebot 20 538932 20140627041245 0
+bot[\s_+:,\.\;\/\\-] 13 143338 20140629044024 0
+scanner 1 11026 20140617182313 0
+netcraft 1 11026 20140613215347 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+eot 10 203350 0 0
+css 92 4273438 0 0
+png 44 375716 0 0
+html 84 815924 0 0
+jpg 22 2259653 0 0
+js 25 727750 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 10
+blackberry 1
+winlong 42
+winxp 120
+winnt 3
+win2000 7
+linux 2
+win7 58
+macosx 2
+win2003 4
+Unknown 38
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 24
+firefox28.0 1
+msie6.0 41
+blackberry 1
+firefox26.0 1
+chrome34.0.1847.131 1
+safari7.0.4 1
+msie5.5 2
+opera9.80 30
+msie8.0 78
+chrome35.0.1916.114 11
+chrome18.0.966.0 1
+mozilla 7
+firefox25.0 11
+msie7.0 38
+firefox14.0.1 1
+firefox3.5.8 2
+firefox23.0 1
+msie10.0 3
+chrome11.0.696.12 1
+opera9.64 11
+firefox3.6.3 1
+firefox27.0 1
+Unknown 31
+opera9.53 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(compatible;_WebMasterAid/1.0;__http://wmaid.com/explore/) 20140628144029
+NerdyBot 20140630075406
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+NerdyBot 20140630075406
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 47 50
+From1 0 0
+From2 25 25
+From3 11 11
+From4 11 191
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 4 4
+yandex 21 21
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://wmaid.com/explore/adamclaysmith.com 4 4
+http://wmaid.com/explore/adamclaysmith.com/ 3 3
+http://privhosting.com 3 3
+http://mawords.com/adamclaysmith.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+adam+clay 21
+installerex+review 3
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+adam 21
+clay 21
+review 3
+installerex 3
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 91 516688
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 15
+/wp-admin/ 1 -
+/ 4 -
+/robots.txt 21 -
+/admin/config.php 1 -
+/administrator/ 3 -
+/administrator 2 http://ADAMCLAYSMITH.COM/administrator
+/blog/wp-admin/ 1 -
+/about.html 6 -
+/admin.php 3 -
+/admin/fckeditor/editor/filemanager/connectors/test.html 1 -
+/js/docs.min.js 25 http://adamclaysmith.com/
+/backup/database 1 http://ADAMCLAYSMITH.COM/backup/database
+/wp-login.php 5 -
+/assets/js/ie8-responsive-file-warning.js 16 http://adamclaysmith.com/
+/wordpress/wp-admin/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 62
+188.92.76.167 10 10 0 20140628144029
+46.188.44.163 8 42 1596842 20140630162341
+37.145.29.45 3 18 660883 20140601204645
+185.18.23.175 3 18 660883 20140602213408
+216.172.56.37 3 3 33078 20140618014001
+95.220.91.22 3 18 660883 20140618204657
+37.145.89.98 2 7 273008 20140623104819
+69.58.178.59 2 2 22052 20140620104412
+95.220.81.3 2 8 377385 20140620093621
+64.202.161.41 2 2 22052 20140625181442
+176.195.57.25 2 7 273008 20140628163611
+95.220.150.100 2 27 1017397 20140621132448
+95.220.156.91 2 27 1017397 20140622002002
+37.145.91.49 2 7 273008 20140621144510
+108.59.83.243 1 1 11026 20140627075430
+23.251.148.132 1 1 11026 20140626145917
+162.222.181.147 1 1 11026 20140629075337
+62.210.129.169 1 1 11026 20140624184346
+23.251.158.96 1 1 11026 20140623075416
+95.141.38.74 1 1 11026 20140615150310
+199.80.59.173 1 1 11026 20140629105318
+23.236.50.235 1 1 11026 20140618075504
+23.236.56.61 1 1 11026 20140617075446
+108.59.80.19 1 1 11026 20140630075406
+173.255.113.184 1 1 11026 20140601081619
+130.211.174.74 1 1 11026 20140620075501
+66.220.7.244 1 1 11026 20140616034523
+192.99.200.213 1 1 11026 20140626210054
+38.100.21.63 1 4 119186 20140614165034
+23.236.54.12 1 1 11026 20140615075430
+23.251.149.254 1 1 11026 20140604081324
+107.178.220.87 1 1 11026 20140613140451
+23.251.155.90 1 1 11026 20140628075424
+178.208.78.56 1 1 11026 20140616233420
+23.251.154.135 1 1 11026 20140609075606
+5.9.74.174 1 1 11026 20140627132448
+64.20.30.66 1 11 387875 20140609100358
+173.255.113.140 1 1 11026 20140624075434
+23.236.55.161 1 1 11026 20140619075442
+107.178.209.151 1 1 11026 20140603081150
+23.236.55.95 1 1 11026 20140611075520
+95.220.182.8 1 11 387875 20140622200706
+107.178.211.51 1 1 11026 20140608075438
+91.236.74.121 1 1 11026 20140613094038
+23.251.145.14 1 1 11026 20140606075604
+199.80.59.174 1 1 11026 20140617141625
+162.222.183.106 1 1 11026 20140612075517
+107.178.218.67 1 1 11026 20140625075424
+173.255.117.145 1 1 11026 20140610075527
+107.178.220.24 1 1 11026 20140614075441
+199.223.235.18 1 1 11026 20140605081230
+76.26.220.192 1 1 11026 20140605082704
+23.20.118.230 1 1 11026 20140616064234
+23.236.50.239 1 1 11026 20140607075458
+162.243.101.146 1 1 11026 20140602204003
+130.211.135.11 1 1 11026 20140621075423
+199.223.233.120 1 1 11026 20140602081728
+107.178.212.167 1 1 11026 20140626075500
+93.80.132.90 1 11 387875 20140620041406
+107.178.220.63 1 1 11026 20140616075457
+199.223.236.108 1 1 11026 20140622075436
+198.50.28.186 1 1 11026 20140626060018
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20140601 4 19 671909 2
+20140602 5 20 682935 4
+20140603 1 1 11026 1
+20140604 1 1 11026 1
+20140605 3 3 22052 3
+20140606 2 2 11026 2
+20140607 1 1 11026 1
+20140608 1 1 11026 1
+20140609 3 13 409927 3
+20140610 1 1 11026 1
+20140611 1 1 11026 1
+20140612 2 2 22052 2
+20140613 4 4 22052 3
+20140614 2 5 130212 2
+20140615 2 2 22052 2
+20140616 4 4 44104 4
+20140617 2 2 22052 2
+20140618 5 20 682935 3
+20140619 1 1 11026 1
+20140620 6 22 798338 4
+20140621 6 46 1689306 5
+20140622 3 28 1028423 3
+20140623 3 8 284034 2
+20140624 2 2 22052 2
+20140625 6 6 33078 3
+20140626 6 12 421489 5
+20140627 4 9 295060 3
+20140628 7 22 671909 4
+20140629 4 9 295060 3
+20140630 2 10 296592 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 73
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 84 815924 75 65
+/fonts/glyphicons-halflings-regular.eot 10 203350 0 10
+END_SIDER
