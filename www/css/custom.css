@@ -28,3 +28,9 @@
 .container h1 {
     color: white;
 }
+.profile-pic {
+	margin:auto; 
+	width:200px;
+	display:block;
+	border-radius: 50%;
+}
