@@ -30,7 +30,23 @@
 }
 .profile-pic {
 	margin:auto; 
-	width:200px;
+	width:250px;
 	display:block;
 	border-radius: 50%;
+}
+.portfolio-pic-sm {
+	margin:auto;
+	height:150px;
+	width:150px;
+	border-radius:20%;
+}
+.portfolio-pic-lrg {
+	margin:auto;
+	height:200px;
+	width:200px;
+	border-radius:20%;
+}
+.resume-company {
+	color: rgb(24, 188, 156); 
+	margin-top:50px;
 }

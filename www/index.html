@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
     <title>Adam C. Smith</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/cover.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
     <!-- Google Analytics Code -->
@@ -36,60 +40,474 @@
       ga('create', 'UA-77705781-1', 'auto');
       ga('send', 'pageview');
     </script>
-  </head>
 
-  <body>
+</head>
 
-    <video autoplay loop muted poster="img/background.jpg" id="background">
+<body id="page-top" class="index">
+
+    <video autoplay loop muted poster="img/background-beach.jpg" id="background">
         <!-- <source src="img/testing-beach.mp4" type="video/mp4"> -->
         <source src="img/testing-beach.mp4" type="video/webm">
     </video>
 
-    <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-<!--               <h3 class="masthead-brand">Adam C. Smith</h3> -->
-              <ul class="nav masthead-nav">
-<!--                 <li class="active"><a href="test.html">Home</a></li> -->
-                <li><a href="resumè.html" style="color:white">Resumè</a></li>
-                <li><a href="portfolio.html" style="color:white">Portfolio</a></li>
-                <li><a href="contact.html" style="color:white">Contact</a></li>
-                <!-- <li><a href="about.html">Test</a></li> -->
-              </ul>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Adam C. Smith</a>
             </div>
-          </div>
 
-          <div class="inner cover">
-            <img src="img/profilePic.jpg" class="profile-pic"/>
-            <h1 class="cover-heading">Adam C. Smith</h1>
-            <p class="lead">I'm using this site as a portfolio...and a playground for web dev.</p>
-            <p class="lead">
-              <!-- <a href="#" class="btn btn-lg btn-default">Learn more</a> -->
-            </p>
-          </div>
-
-          <div class="mastfoot">
-            <div class="inner">
-              <p>Adam C. Smith 2016</p>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">Resumè</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-          </div>
-
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-      </div>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive profile-pic" src="img/profilePic.jpg" alt="">
+                    <div class="intro-text">
+                        <span class="name">Adam C. Smith</span>
+                        <hr class="star-light">
+                        <span class="skills">Software Developer</span>
+                        <p style="margin-top: 100px">I'm using this site as a portfolio...and a playground for web dev.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
+    <!-- Portfolio Grid Section -->
+    <section class="success" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row" style="margin-top:35px">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/erli.jpg" class="img-responsive portfolio-pic-sm" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/gwiglogo.png" class="img-responsive portfolio-pic-sm" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/kidsmd.png" class="img-responsive portfolio-pic-sm" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/stream.jpg" class="img-responsive portfolio-pic-sm" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/zubie.png" class="img-responsive portfolio-pic-sm" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/crowdflik.png" class="img-responsive portfolio-pic-sm" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Resumè</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-12" style="color:white">
+                    <h3 class="resume-company">Qonceptual, Inc.</h3>
+                    <h4>Software Developer</h4>
+                    <h5>May 2014 - Present</h5>
+                    <p>Agile developer concentrated on the creation of fast and beautiful web and mobile apps, as well as scalable API's.  <br><br> Current project is developing a responsive dashboard web application, and includes new functionality, features, and design.<br><br>Stack: Python w/ Flask, AngularJS, Oracle SQL<br><br>On previous project, worked as sole iOS Developer on a start to finish commercial mobile app.   Responsible for the creation/maintenance of a Spring Boot RESTful API, as well as the creation/maintenance of the MySQL database.  Also handled all the AWS infrastructure, which includes RDS, SES, S3, and Beanstalk.  <br><br>Stack: Swift, Spring Boot w/ Java, MySQL, AWS</p>
+                    <a class="btn btn-primary" href="http://www.qonceptual.com/">View Website <span class="glyphicon glyphicon-chevron-right"></span></a>    
+                </div>
+
+                <hr>
+
+                <div class="col-lg-12" style="color:white">
+                    <h3 class="resume-company">SPARC, LLC</h3>
+                    <h4>Software Developer</h4>
+                    <h5>August 2010 - May 2014</h5>
+                    <p>Mobile developer working on entire app lifecycle, from concept to product. Heavily involved in the iOS and RESTful API development of the app. Development is conducted using agile methodologies. <br><br>Prior to joining the mobile team, I was a Java developer on large government-contracted project, Veterans Benefits Management System (VBMS), responsible for moving the Department of Veterans Affairs (VA) into a paperless environment, leading to a reduction in claim processing time. <br><br> Member of development team responsible for full lifecycle application development; including the architecture, development, and implementation of web applications. Our development team also provides support and input to other development teams and workstreams. Assist in the research, development, guidance, and implementation of the software industry’s best practices in an agile/scrum software environment.</p>
+                    <a class="btn btn-primary" href="http://www.sparcedge.com/">View Website <span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+
+                <div class="col-lg-12" style="color:white">
+                    <h3 class="resume-company">Sotera Defense Solutions</h3>
+                    <h4>Software Engineer</h4>
+                    <h5>June 2008 - August 2010</h5>
+                    <p>Assist in the development and testing of new software. Work closely with other developers to ensure all code is of the utmost efficiency. Assist in the development for new and previous projects.<br><br>Evaluate and test new or modified software programs and software development procedures to verify that programs function according to user requirements and conform to establishment guidelines. Verify software matches the desired output, and validate that both outputs coincide with actual device document specifications. Develop utilities to test, track, and verify defects in software programs. Provide feedback and input for overall software usability.<br><br>Work on local sponsor sites to prepare systems for testing and training. Travel to multiple ships to complete SOVT/SIT testing, train sailors on software, configure/install software, as well as troubleshoot any problems/issues that arise.</p>
+                    <a class="btn btn-primary" href="http://www.soteradefense.com/">View Website <span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+
+            </div>
+
+                <div class="col-lg-8 col-lg-offset-2 text-center" style="margin-top:35px">
+                    <a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download Resumè
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <!-- <div id="map"></div> -->
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>James Island<br>Charleston, SC 29412</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/adamclaysmith" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/acsmith843" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/adamclaysmith" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/acsmith843" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Contact Me</h3>
+                        <p>Feel free to reach out and provide some feedback, insights, or just say hello!</p>
+                        <p><a href="mailto:acsmith843@gmail.com">acsmith843@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Adam C. Smith 2016
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Erli</h2>
+                            <hr class="star-primary">
+                            <img src="img/erli.jpg" class="img-responsive img-centered portfolio-pic-lrg" alt="">
+                            <p>Get official content from your favorite artists and publications before anyone else has the chance! ERLI gives you VIP access to the newest music, videos, and podcasts, before the general public.</p>
+                            <ul class="list-inline item-details">
+                                <li>Stack:
+                                    <strong>Objective-C, JAVA, MongoDB</strong>
+                                </li>
+                                <li>Date:
+                                    <strong>April 2014</strong>
+                                </li>
+                                <li>Service:
+                                    <strong>iOS/Api Development</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>GWIG</h2>
+                            <hr class="star-primary">
+                            <img src="img/gwiglogo.png" class="img-responsive img-centered portfolio-pic-lrg" alt="">
+                            <p>Go Where I Go (GWIG) is THE app for Word-of-Mouth Referrals! The GWIG mobile app allows you to send your trusted businesses to your friends without spam, ads, or reviews from strangers.</p>
+                            <ul class="list-inline item-details">
+                                <li>Stack:
+                                    <strong>Swift, Play Framework w/ Java, MySQL</strong>
+                                </li>
+                                <li>Date:
+                                    <strong>April 2014</strong>
+                                </li>
+                                <li>Service:
+                                    <strong>iOS Development</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>KidsMD</h2>
+                            <hr class="star-primary">
+                            <img src="img/kidsmd.png" class="img-responsive img-centered portfolio-pic-lrg" alt="">
+                            <p>Offers parents and families the ability to document and access their child's health information through their mobile device.</p>
+                            <ul class="list-inline item-details">
+                                <li>Stack:
+                                    <strong>Play Framework w/ Java, MySQL</strong>
+                                </li>
+                                <li>Date:
+                                    <strong>April 2014</strong>
+                                </li>
+                                <li>Service:
+                                    <strong>Android/API Development</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Stre.am</h2>
+                            <hr class="star-primary">
+                            <img src="img/stream.jpg" class="img-responsive img-centered portfolio-pic-lrg" alt="">
+                            <p>Stre.am is a video platform that enables anyone with a mobile device to broadcast and share life’s experiences as they happen. Built from the ground up for mobile, Stre.am is easy to use, easy to share on other platforms, and just really fun. On the back-end, Stre.am leverages proprietary transcoding technologies to deliver a seamless high-quality experience.</p>
+                            <ul class="list-inline item-details">
+                                <li>Stack:
+                                    <strong>Objective-C, Play Framework w/ Java, MySQL</strong>
+                                </li>
+                                <li>Date:
+                                    <strong>April 2014</strong>
+                                </li>
+                                <li>Service:
+                                    <strong>iOS/API Development</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Zubie</h2>
+                            <hr class="star-primary">
+                            <img src="img/zubie.png" class="img-responsive img-centered portfolio-pic-lrg" alt="">
+                            <p>A cool new service connecting you to your car to help you monitor your vehicles, diagnose repair problems and take the hassle out of daily driving.</p>
+                            <ul class="list-inline item-details">
+                                <li>Stack:
+                                    <strong>Objective-C, Swift, Node.js, MySQL</strong>
+                                </li>
+                                <li>Date:
+                                    <strong>April 2014</strong>
+                                </li>
+                                <li>Service:
+                                    <strong>iOS/API Development</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Crowdflik</h2>
+                            <hr class="star-primary">
+                            <img src="img/crowdflik.png" class="img-responsive img-centered portfolio-pic-lrg" alt="">
+                            <p>Mobile video app that synchronizes multiple video streams at events so that viewers can easily create custom videos using the best scenes and angles.</p>
+                            <ul class="list-inline item-details">
+                                <li>Stack:
+                                    <strong>Objective-C, Play Framework w/ Java, MySQL</strong>
+                                </li>
+                                <li>Date:
+                                    <strong>April 2014</strong>
+                                </li>
+                                <li>Service:
+                                    <strong>iOS/API Development</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="css/docs.min.js"></script>
-  </body>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoMpTVWqt0irPPzn0Vl-Tpa1vgJwBTWPo&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
+</body>
+
 </html>
